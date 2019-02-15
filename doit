@@ -1,0 +1,10 @@
+#!/bin/csh
+
+gcc -o programa *.c
+./programa < test5.in > output.out
+diff test5.out output.out
+echo "test over"
+
+foreach i (1 2 3 4)
+  echo "iteration $i"
+end
