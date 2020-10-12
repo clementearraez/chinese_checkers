@@ -9,7 +9,6 @@ pipeline {
                 */
                 echo 'Do the testing bro'
                 sh 'make check || true' 
-                junit '**/target/*.xml' 
             }
         }
     }
