@@ -5,6 +5,6 @@ gcc -o programa *.c
 diff test5.out output.out
 echo "test over"
 
-foreach i 1 2 3 4
+foreach i ( 1 2 3 4)
   echo "iteration $i"
 end
