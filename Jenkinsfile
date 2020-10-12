@@ -8,6 +8,7 @@ pipeline {
                 * using `true` to allow the Pipeline to continue nonetheless
                 */
                 echo 'Do the testing bro'
+                echo 'And say hello'
                 sh 'make check || true' 
             }
         }
