@@ -9,7 +9,7 @@ pipeline {
                 */
                 echo 'Do the testing bro'
                 echo 'And say hello'
-                sh 'doit' 
+                //sh 'doit' 
             }
         }
     }
